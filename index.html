@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analytics Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <div class="logo">Portfolio</div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="resume.pdf" class="resume-btn" target="_blank">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!--Home-->
+    <section id="home">
+        <div class="profile-container">
+            <div class="profile-image">
+                <img src="images\chakra2.png" alt="Chakradhar" />
+            </div>
+            <h1>Hello, I'm <span class="name">M Chakradhar</span></h1>
+            <div class="typing-text" id="roles"></div>
+            <p class="welcome-message">
+                Passionate about transforming data into actionable insights. 
+                Specialized in business intelligence and data visualization.
+            </p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/chakradhar-mantena/" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Chakradhar-M" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.youtube.com/@Chakradhar-DataMeru" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="https://www.kaggle.com/chakra100824" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-kaggle"></i>
+                </a>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <!------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!--About-->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>I’m M Chakradhar, a Data Analyst with a strong focus on turning data into meaningful insights. I have a Master’s degree in Integrated Systems Biology from the University of Hyderabad, and I enjoy working with data to help businesses make informed decisions.</p>
+            <p>I specialize in using tools like Power BI, SQL, and Python to analyze data, create clear visualizations, and build reports that are easy to understand. I am committed to continuous learning, enhancing my skills, and staying updated with the latest trends in analytics. I take pride in delivering work that is both accurate and impactful.</p>
+            <p>I’m always open to connecting with others and collaborating on projects where data can make a difference.</p>
+        </div>
+        <h3>Skills</h3>
+        <div class="skills-grid">
+            <div class="skill">Power BI</div>
+            <div class="skill">SQL</div>
+            <div class="skill">Python</div>
+            <div class="skill">Pandas</div>
+            <div class="skill">Client Management</div>
+            <div class="skill">Data Cleaning</div>
+            <div class="skill">Excel</div>
+            
+        </div>
+    </section>
+
+    <!------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!--Projects-->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <!-- Project cards will be dynamically populated by JavaScript -->
+        </div>
+    </section>
+
+    <!------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!-- Contact -->
+    <!-- <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="text" placeholder="Subject" required>
+            <textarea placeholder="Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>  -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="text" id="subject" placeholder="Subject" required>
+            <textarea id="message" placeholder="Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <script src="main.js"></script>
+    
+
+
+    <!------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!--Footer-->
+    <footer>
+        <p>&copy; 2025 Chakradhar Data Analytics Portfolio. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/chakradhar-mantena/" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/Chakradhar-M" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.youtube.com/@Chakradhar-DataMeru" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://www.kaggle.com/chakra100824" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-kaggle"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
